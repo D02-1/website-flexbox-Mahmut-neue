@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(https://media.istockphoto.com/vectors/confectionery-and-sweets-icons-vector-id970516982?k=6&m=970516982&s=612x612&w=0&h=r61-u2dS6QlHL55k0LjqDf9tcl9kAZ5UuSoY8rUMHHI=);
+}
+
 header {
     background-color: black;
     color: white;
@@ -5,6 +11,8 @@ header {
 
 header h1 {
     margin: 0 5px;
+    text-align: center;
+    padding: 5px 0;
 }
 
 nav {
@@ -30,4 +38,46 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgb(51, 49, 49);
     border-radius: 5%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    flex-basis: 250px;
+    height: 120px;
+    margin: 20px 0;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 10% 0;
+}
+
+.title {
+    background: linear-gradient(90deg, rgb(238, 172, 48), rgb(233, 220, 162));
+    margin: 30px 0;
+    flex-basis: 250px;
+    height: 80px;
+    border-radius: 0 20px;
+    display: flex;
+    justify-items: flex-end;
+    align-items: flex-end;
+}
+
+.title {
+    padding: 5px;
+}
+
+.title a i {
+    font-size: large;
+    color: black;
+}
+
+.title a:hover {
+    background: white;
+    border-radius: 50%;
 }
