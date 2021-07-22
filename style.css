@@ -110,3 +110,11 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
+@media (min-width:780px) and (max-width:1040px) {
+    .container {
+        max-width: 720px;
+        margin: 1px;
+        align-items: center;
+    }
+}
