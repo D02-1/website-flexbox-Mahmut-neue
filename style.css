@@ -1,0 +1,33 @@
+header {
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    margin: 0 5px;
+}
+
+nav {
+    background: linear-gradient(90deg, rgb(100, 98, 98), gray, lightgrey);
+}
+
+nav ul {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-right: 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration-line: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(51, 49, 49);
+    border-radius: 5%;
+}
