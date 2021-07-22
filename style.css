@@ -2,6 +2,8 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     background-image: url(https://media.istockphoto.com/vectors/confectionery-and-sweets-icons-vector-id970516982?k=6&m=970516982&s=612x612&w=0&h=r61-u2dS6QlHL55k0LjqDf9tcl9kAZ5UuSoY8rUMHHI=);
+    background-repeat: repeat;
+    background-size: 25%;
 }
 
 header {
@@ -48,19 +50,19 @@ nav ul li a:hover {
 
 .box {
     flex-basis: 250px;
-    height: 120px;
-    margin: 20px 0;
+    margin: 5px;
 }
 
 .box img {
     width: 100%;
+    height: 150px;
     border-radius: 10% 0;
 }
 
 .title {
     background: linear-gradient(90deg, rgb(238, 172, 48), rgb(233, 220, 162));
-    margin: 30px 0;
     flex-basis: 250px;
+    margin: 5px;
     height: 80px;
     border-radius: 0 20px;
     display: flex;
@@ -70,14 +72,13 @@ nav ul li a:hover {
 
 .title {
     padding: 5px;
+    box-sizing: border-box;
 }
 
 .title a i {
-    font-size: large;
     color: black;
 }
 
-.title a:hover {
-    background: white;
-    border-radius: 50%;
+.title a i:hover {
+    color: #b91010;
 }
